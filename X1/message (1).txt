@@ -1,0 +1,29 @@
+#+AUTHOR: Edvard All and David Ljunggren
+#+TITLE: Dokumentation
+#+OPTIONS: toc:nil
+* Författare
+Edvard All och David Ljunggren
+
+* Bus Numbers
+** Vilka paradigm, och varför?
+Vi löste uppgiften imperativt i Java och funktionellt i Haskell. Imperativt för att en naiv imperativ lösning verkade ganska simpel att implementera. Funktionell för att problemet verkade likna Peragrams-problemet på många sätt och lämpade sig väl för att uttryckas i termer av manipulation av en lista. Utöver det hade en av oss ingen som helst tidigare erfarenhet i prolog så det verkade mest bekvämt så.
+
+** Kort reflektion över resultatet
+Våra naiva lösningar var, om än inte särskilt eleganta, tillräckliga för uppgiften. Den funktionella lösningen visade sig lite mer involverad än vad vi hade tänkt oss från början, mycket på grund av hur Haskells group fungerar (där hittade vi en fin groupWhen som tillät oss bygga konsekutiva grupper).
+
+* Calculating Dart Scores
+** Vilka paradigm, och varför?
+Vi löste uppgiften imperativt i Java och i det logiska paradigmet i Prolog. Här hade vi först löst uppgiften i Haskell mha listsammanfattningar, som vi helt enkelt försökte översätta i Prolog-termer (en av oss hade ingen tidigare erfarenhet av prolog).
+
+** Kort reflektion över resultatet. 
+Den imperativa lösningen av problemet är ganska stel och överhuvudtaget lämpade sig nog inte problemet särskilt väl för att uttryckas i dessa termer (jämfört med i predikat eller listor).
+
+* Peragrams
+** Vilka paradigm, och varför?
+För Peragrams använde vi logisk i Prolog och funktionellt i Haskell. Efter vi förstått hur vi skulle angripa problemet (räkna udda förekomster av bokstäver bland annat) insåg vi att det skulle gå att lösa snyggt i Haskell. Vi löste det i det logiska paradigmet för att vi trodde att det skulle bli enklare att översätta emellan Haskell och Prolog. 
+
+** Kort reflektion över resultatet
+Vi är nöjda med lösningen i Haskell då den är väldigt kort och simpel. Group gör uppgiften särskilt enkel, och hade nog varit mer involverat att uttrycka imperativt. Även i Prolog blev lösningen relativt kort. När vi skrivit predikatet som räknar udda förekomster av en bokstav löste nästan problemet sig självt.
+ 
+* Allmän reflektion
+Intressanta uppgifter. I synnerhet dart scores eftersom att det inte finns en självklar metod att lösa problemet på. Det var lite jobbigt med Prolog eftersom att det var så länge sedan vi gjorde det. Kraften av funktionella språk var tydlig i t.ex. Peragrams, och det fick oss vilja lära oss mer om funktionell programmering.
